@@ -18,7 +18,7 @@ Build it yourself, self-host it, keep control of your data, and avoid unnecessar
 
 | Paid Service | Open-Source Alternative | Category | Maturity | Status | Repository |
 | --- | --- | --- | --- | --- | --- |
-| UptimeRobot | Uptime Monitor | Monitoring | MVP / production usable | 🟢 Ready | Repository link pending publication |
+| UptimeRobot | Uptime Monitor | Monitoring | MVP / production usable | 🟢 Ready | [Repository](https://github.com/TunarJamalov/uptime-monitor) |
 | Typefully | Typefully alternative | Social Media | Planned | 🔵 Planned | Not created yet |
 | Obsidian Sync | Git-based vault sync | Storage / Productivity | Planned | 🔵 Planned | Not created yet |
 | Bitwarden | Self-hosted password manager alternative | Security | Planned | 🔵 Planned | Not created yet |
@@ -45,7 +45,7 @@ A small, single-process, self-hosted uptime monitoring service with SQLite persi
 - Public status page and admin dashboard
 - SQLite storage, exports, backups, and systemd deployment
 
-**Repository:** The project is currently maintained locally in the `UptimeRobot` project directory. Add the public GitHub URL here after that repository is published.
+**Repository:** [github.com/TunarJamalov/uptime-monitor](https://github.com/TunarJamalov/uptime-monitor)
 
 **Installation:** See the Uptime Monitor project's own README. The catalog intentionally does not duplicate its installation instructions.
 
@@ -53,7 +53,7 @@ A small, single-process, self-hosted uptime monitoring service with SQLite persi
 
 ### Monitoring
 
-- Uptime Monitor, an UptimeRobot alternative. Ready; repository link pending publication.
+- [Uptime Monitor](https://github.com/TunarJamalov/uptime-monitor), an UptimeRobot alternative. Ready.
 
 ### Productivity
 
@@ -121,7 +121,7 @@ This collection prioritizes quality over quantity. Do not add an AI-generated cl
 - [x] Create the central directory
 - [x] Define consistent project statuses
 - [x] Add contribution and project-entry guidance
-- [ ] Publish the Uptime Monitor as an independent GitHub repository
+- [x] Publish the Uptime Monitor as an independent GitHub repository
 - [ ] Add more mature SaaS alternatives
 - [ ] Add more categories when projects are ready
 - [ ] Add comparison pages for the most important projects
