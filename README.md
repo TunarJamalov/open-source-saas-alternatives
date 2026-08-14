@@ -39,6 +39,7 @@ A small, single-process, self-hosted uptime monitoring service with SQLite persi
 **Features:**
 
 - HTTP/HTTPS, SSL, TCP, DNS, Ping, and WebSocket monitoring
+- Heartbeat / Cron monitoring with private generated endpoints
 - Incident tracking and uptime history
 - Discord, Slack, Telegram, and optional SMTP notifications
 - Maintenance mode and SSL expiry alerts
