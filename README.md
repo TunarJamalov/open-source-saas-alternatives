@@ -19,7 +19,7 @@ Build it yourself, self-host it, keep control of your data, and avoid unnecessar
 | Paid Service | Open-Source Alternative | Category | Maturity | Status | Repository |
 | --- | --- | --- | --- | --- | --- |
 | UptimeRobot | Uptime Monitor | Monitoring | MVP / production usable | 🟢 Ready | [Repository](https://github.com/TunarJamalov/uptime-monitor) |
-| Typefully | Post Scheduler | Social Media | Early development | 🟡 Development | Not published yet |
+| Typefully | Post Scheduler | Social Media | Early development | 🟡 Development | [Repository](https://github.com/TunarJamalov/post-scheduler) |
 | Obsidian Sync | Git-based vault sync | Storage / Productivity | Planned | 🔵 Planned | Not created yet |
 | Bitwarden | Self-hosted password manager alternative | Security | Planned | 🔵 Planned | Not created yet |
 
@@ -62,7 +62,9 @@ A small, single-process, self-hosted uptime monitoring service with SQLite persi
 
 A single-process, self-hosted tool for drafting, splitting into threads, scheduling, and publishing posts to Mastodon and Bluesky, with SQLite storage and the same admin sign-in approach as the Uptime Monitor. X/Twitter publishing is not included yet.
 
-**Repository:** Not published yet. The entry will receive a link once the repository is public.
+**Repository:** [github.com/TunarJamalov/post-scheduler](https://github.com/TunarJamalov/post-scheduler)
+
+**Installation:** See the Post Scheduler project's own README.
 
 ## Categories
 
@@ -76,7 +78,7 @@ A single-process, self-hosted tool for drafting, splitting into threads, schedul
 
 ### Social Media
 
-- Post Scheduler, a Typefully alternative. In development.
+- [Post Scheduler](https://github.com/TunarJamalov/post-scheduler), a Typefully alternative. In development.
 
 ### Security
 
@@ -137,7 +139,7 @@ This collection prioritizes quality over quantity. Do not add an AI-generated cl
 - [x] Define consistent project statuses
 - [x] Add contribution and project-entry guidance
 - [x] Publish the Uptime Monitor as an independent GitHub repository
-- [ ] Publish the Post Scheduler repository
+- [x] Publish the Post Scheduler repository
 - [ ] Add more mature SaaS alternatives
 - [ ] Add more categories when projects are ready
 - [ ] Add comparison pages for the most important projects
