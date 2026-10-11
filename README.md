@@ -20,6 +20,7 @@ Build it yourself, self-host it, keep control of your data, and avoid unnecessar
 | --- | --- | --- | --- | --- | --- |
 | UptimeRobot | Uptime Monitor | Monitoring | MVP / production usable | 🟢 Ready | [Repository](https://github.com/TunarJamalov/uptime-monitor) |
 | Typefully | Post Scheduler | Social Media | Early development | 🟡 Development | [Repository](https://github.com/TunarJamalov/post-scheduler) |
+| Bitly | Link Shortener | Productivity / Marketing | MVP | 🟢 Ready | [Repository](https://github.com/TunarJamalov/link-shortener) |
 | Obsidian Sync | Git-based vault sync | Storage / Productivity | Planned | 🔵 Planned | Not created yet |
 | Bitwarden | Self-hosted password manager alternative | Security | Planned | 🔵 Planned | Not created yet |
 
@@ -76,6 +77,27 @@ A single-process, self-hosted tool for drafting, splitting into threads, schedul
 
 **Installation:** See the Post Scheduler project's own README.
 
+### Link Shortener
+
+**Alternative to:** Bitly  
+**Category:** Productivity / Marketing  
+**Status:** 🟢 Ready  
+**Maturity:** MVP
+
+A single-process, self-hosted link shortener on your own domain with click statistics stored in SQLite.
+
+**Features:**
+
+- Generated or custom slugs, titles, expiry dates, and click limits
+- Click statistics per day, referrers, browsers, operating systems, and devices without storing IP addresses
+- QR codes, 301/302 redirects, API token for scripts
+- Admin sign-in with optional TOTP, systemd and Docker deployment
+- Limitation: no geographic statistics and one domain per instance
+
+**Repository:** [github.com/TunarJamalov/link-shortener](https://github.com/TunarJamalov/link-shortener)
+
+**Installation:** See the Link Shortener project's own README.
+
 ## Categories
 
 ### Monitoring
@@ -84,6 +106,7 @@ A single-process, self-hosted tool for drafting, splitting into threads, schedul
 
 ### Productivity
 
+- [Link Shortener](https://github.com/TunarJamalov/link-shortener), a Bitly alternative. Ready.
 - Git-based vault sync, an Obsidian Sync alternative. Planned.
 
 ### Social Media
