@@ -60,7 +60,16 @@ A small, single-process, self-hosted uptime monitoring service with SQLite persi
 **Status:** 🟡 Development  
 **Maturity:** Early development
 
-A single-process, self-hosted tool for drafting, splitting into threads, scheduling, and publishing posts to Mastodon and Bluesky, with SQLite storage and the same admin sign-in approach as the Uptime Monitor. X/Twitter publishing is not included yet.
+A single-process, self-hosted tool for drafting, splitting into threads, scheduling, and publishing posts to Mastodon and Bluesky, with SQLite storage and the same admin sign-in approach as the Uptime Monitor.
+
+**Features:**
+
+- Posts and threads with per-network character counters
+- Scheduling, drafts, publish now, cancel, automatic retries with history
+- Up to four images per thread part with alt text
+- Mastodon and Bluesky publishing; encrypted account tokens
+- Admin sign-in with optional TOTP, systemd and Docker deployment
+- Limitation: no X/Twitter, LinkedIn, or Threads support; no video uploads
 
 **Repository:** [github.com/TunarJamalov/post-scheduler](https://github.com/TunarJamalov/post-scheduler)
 
