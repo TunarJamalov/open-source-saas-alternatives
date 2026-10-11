@@ -151,6 +151,8 @@ These categories contain only projects that currently exist or have a clearly do
 
 Status describes maturity honestly. It does not imply that every feature of the original SaaS exists in the alternative.
 
+Every project in this catalog tags releases on GitHub, runs lint, tests, build and a dependency audit in CI, uses Dependabot, and has a `SECURITY.md` with a private reporting channel. Install from the latest release tag rather than from `main` when you want a known state.
+
 ## Not Planned
 
 - **Bitwarden alternative**: a password manager is security-critical software where a mistake harms people directly, and [Vaultwarden](https://github.com/dani-garcia/vaultwarden) already is an excellent, widely audited self-hosted implementation of the Bitwarden API. This catalog will not add a new one; use Vaultwarden.
