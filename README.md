@@ -22,7 +22,7 @@ Build it yourself, self-host it, keep control of your data, and avoid unnecessar
 | Typefully | Post Scheduler | Social Media | Early development | 🟡 Development | [Repository](https://github.com/TunarJamalov/post-scheduler) |
 | Bitly | Link Shortener | Productivity / Marketing | MVP | 🟢 Ready | [Repository](https://github.com/TunarJamalov/link-shortener) |
 | Obsidian Sync | Git-based vault sync | Storage / Productivity | Planned | 🔵 Planned | Not created yet |
-| Calendly | Booking Page | Scheduling | Planned | 🔵 Planned | Not created yet |
+| Calendly | Booking Page | Scheduling | MVP | 🟢 Ready | [Repository](https://github.com/TunarJamalov/booking-page) |
 
 Only projects with a real repository link should receive a clickable repository link here. Planned entries are ideas, not promises of an existing implementation.
 
@@ -98,6 +98,28 @@ A single-process, self-hosted link shortener on your own domain with click stati
 
 **Installation:** See the Link Shortener project's own README.
 
+### Booking Page
+
+**Alternative to:** Calendly  
+**Category:** Scheduling  
+**Status:** 🟢 Ready  
+**Maturity:** MVP
+
+A single-process, self-hosted booking page: define event types and weekly availability, share a link, and let guests pick a free slot in their own time zone.
+
+**Features:**
+
+- Event types with duration, buffer, minimum notice, and booking horizon
+- Weekly availability windows and blocked time, with daylight saving handled
+- Public booking page, double-booking protection, guest self-cancellation
+- Calendar invitations (.ics) and SMTP confirmation emails
+- Admin sign-in with optional TOTP, systemd and Docker deployment
+- Limitation: single host, no Google or Outlook calendar sync, no rescheduling flow
+
+**Repository:** [github.com/TunarJamalov/booking-page](https://github.com/TunarJamalov/booking-page)
+
+**Installation:** See the Booking Page project's own README.
+
 ## Categories
 
 ### Monitoring
@@ -115,7 +137,7 @@ A single-process, self-hosted link shortener on your own domain with click stati
 
 ### Scheduling
 
-- Booking Page, a Calendly alternative. Planned.
+- [Booking Page](https://github.com/TunarJamalov/booking-page), a Calendly alternative. Ready.
 
 These categories contain only projects that currently exist or have a clearly documented planned entry. New categories should be added when a real project is ready to list.
 
