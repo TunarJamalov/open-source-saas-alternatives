@@ -19,7 +19,7 @@ Build it yourself, self-host it, keep control of your data, and avoid unnecessar
 | Paid Service | Open-Source Alternative | Category | Maturity | Status | Repository |
 | --- | --- | --- | --- | --- | --- |
 | UptimeRobot | Uptime Monitor | Monitoring | MVP / production usable | 🟢 Ready | [Repository](https://github.com/TunarJamalov/uptime-monitor) |
-| Typefully | Typefully alternative | Social Media | Planned | 🔵 Planned | Not created yet |
+| Typefully | Post Scheduler | Social Media | Early development | 🟡 Development | Not published yet |
 | Obsidian Sync | Git-based vault sync | Storage / Productivity | Planned | 🔵 Planned | Not created yet |
 | Bitwarden | Self-hosted password manager alternative | Security | Planned | 🔵 Planned | Not created yet |
 
@@ -38,19 +38,31 @@ A small, single-process, self-hosted uptime monitoring service with SQLite persi
 
 **Features:**
 
-- HTTP/HTTPS, SSL, TCP, DNS, Ping, and WebSocket monitoring
+- HTTP/HTTPS, SSL, TCP, UDP, DNS, Ping, and WebSocket monitoring
 - Heartbeat / Cron monitoring with private generated endpoints
 - Domain registration expiration monitoring through real WHOIS lookups
-- UDP request/response monitoring with timeout and payload matching
-- Incident tracking and uptime history
-- Discord, Slack, Telegram, and optional SMTP notifications
-- Maintenance mode and SSL expiry alerts
-- Public status page and admin dashboard
-- SQLite storage, exports, backups, and systemd deployment
+- Incident tracking, uptime history, latency history, and SSL expiry warnings
+- Discord, Slack, Telegram, generic JSON webhook, and optional SMTP notifications
+- Per-monitor notification policy (failure threshold, repeat and recovery alerts) with notification history
+- Maintenance mode, pause/resume, and monitor groups
+- Admin dashboard with password sign-in and optional TOTP two-factor authentication
+- Public status page, JSON and CSV export, daily SQLite backups, systemd deployment
+- Limitation: checks run from a single location only
 
 **Repository:** [github.com/TunarJamalov/uptime-monitor](https://github.com/TunarJamalov/uptime-monitor)
 
 **Installation:** See the Uptime Monitor project's own README. The catalog intentionally does not duplicate its installation instructions.
+
+### Post Scheduler
+
+**Alternative to:** Typefully  
+**Category:** Social Media  
+**Status:** 🟡 Development  
+**Maturity:** Early development
+
+A single-process, self-hosted tool for drafting, splitting into threads, scheduling, and publishing posts to Mastodon and Bluesky, with SQLite storage and the same admin sign-in approach as the Uptime Monitor. X/Twitter publishing is not included yet.
+
+**Repository:** Not published yet. The entry will receive a link once the repository is public.
 
 ## Categories
 
@@ -64,7 +76,7 @@ A small, single-process, self-hosted uptime monitoring service with SQLite persi
 
 ### Social Media
 
-- Typefully alternative. Planned.
+- Post Scheduler, a Typefully alternative. In development.
 
 ### Security
 
@@ -125,6 +137,7 @@ This collection prioritizes quality over quantity. Do not add an AI-generated cl
 - [x] Define consistent project statuses
 - [x] Add contribution and project-entry guidance
 - [x] Publish the Uptime Monitor as an independent GitHub repository
+- [ ] Publish the Post Scheduler repository
 - [ ] Add more mature SaaS alternatives
 - [ ] Add more categories when projects are ready
 - [ ] Add comparison pages for the most important projects
