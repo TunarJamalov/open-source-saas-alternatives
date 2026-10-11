@@ -65,7 +65,8 @@ A single-process, self-hosted tool for drafting, splitting into threads, schedul
 **Features:**
 
 - Posts and threads with per-network character counters
-- Scheduling, drafts, publish now, cancel, automatic retries with history
+- Scheduling, posting queue with daily slots, drafts, publish now, cancel, automatic retries with history
+- Cross-posting to several accounts at once
 - Up to four images per thread part with alt text
 - Mastodon and Bluesky publishing; encrypted account tokens
 - Admin sign-in with optional TOTP, systemd and Docker deployment
