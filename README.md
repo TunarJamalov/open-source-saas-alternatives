@@ -22,7 +22,7 @@ Build it yourself, self-host it, keep control of your data, and avoid unnecessar
 | Typefully | Post Scheduler | Social Media | Early development | 🟡 Development | [Repository](https://github.com/TunarJamalov/post-scheduler) |
 | Bitly | Link Shortener | Productivity / Marketing | MVP | 🟢 Ready | [Repository](https://github.com/TunarJamalov/link-shortener) |
 | Obsidian Sync | Git-based vault sync | Storage / Productivity | Planned | 🔵 Planned | Not created yet |
-| Bitwarden | Self-hosted password manager alternative | Security | Planned | 🔵 Planned | Not created yet |
+| Calendly | Booking Page | Scheduling | Planned | 🔵 Planned | Not created yet |
 
 Only projects with a real repository link should receive a clickable repository link here. Planned entries are ideas, not promises of an existing implementation.
 
@@ -113,9 +113,9 @@ A single-process, self-hosted link shortener on your own domain with click stati
 
 - [Post Scheduler](https://github.com/TunarJamalov/post-scheduler), a Typefully alternative. In development.
 
-### Security
+### Scheduling
 
-- Self-hosted password manager alternative. Planned.
+- Booking Page, a Calendly alternative. Planned.
 
 These categories contain only projects that currently exist or have a clearly documented planned entry. New categories should be added when a real project is ready to list.
 
@@ -128,6 +128,10 @@ These categories contain only projects that currently exist or have a clearly do
 - 🔵 **Planned**: Idea or planned project; a repository may not exist yet.
 
 Status describes maturity honestly. It does not imply that every feature of the original SaaS exists in the alternative.
+
+## Not Planned
+
+- **Bitwarden alternative**: a password manager is security-critical software where a mistake harms people directly, and [Vaultwarden](https://github.com/dani-garcia/vaultwarden) already is an excellent, widely audited self-hosted implementation of the Bitwarden API. This catalog will not add a new one; use Vaultwarden.
 
 ## Original SaaS Context
 
