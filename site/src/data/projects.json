@@ -1,7 +1,7 @@
 {
   "owner": "TunarJamalov",
   "catalogRepo": "open-source-saas-alternatives",
-  "siteUrl": "https://open-source-saas-alternatives.vercel.app",
+  "siteUrl": "https://open-source-saas-alternatives-site.vercel.app",
   "projects": [
     {
       "slug": "uptime-monitor",

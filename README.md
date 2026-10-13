@@ -6,7 +6,7 @@ Build it yourself, self-host it, keep control of your data, and avoid unnecessar
 
 ## Website
 
-The catalog is also published as a website with a page per project, contributors, releases and setup instructions. It lives in [`site/`](site/) and deploys on Vercel; see [site/README.md](site/README.md).
+The catalog is also published at [open-source-saas-alternatives-site.vercel.app](https://open-source-saas-alternatives-site.vercel.app/), a website with a page per project, contributors, releases and setup instructions. It lives in [`site/`](site/) and deploys on Vercel; see [site/README.md](site/README.md).
 
 ## Quick Links
 
