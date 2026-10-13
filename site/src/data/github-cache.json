@@ -1,0 +1,187 @@
+{
+  "fetchedAt": "2026-10-13T12:17:37.082Z",
+  "repos": {
+    "uptime-monitor": {
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 7,
+      "license": "MIT",
+      "pushedAt": "2026-10-11T18:42:40Z",
+      "createdAt": "2026-08-14T14:49:25Z",
+      "description": "Self-hosted uptime monitor with status page and alerts (UptimeRobot alternative)",
+      "topics": [
+        "monitoring",
+        "nodejs",
+        "self-hosted",
+        "sqlite",
+        "status-page",
+        "typescript",
+        "uptime-monitor",
+        "uptimerobot-alternative"
+      ],
+      "language": "TypeScript",
+      "contributors": [
+        {
+          "login": "TunarJamalov",
+          "contributions": 15,
+          "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
+          "url": "https://github.com/TunarJamalov"
+        }
+      ],
+      "release": {
+        "tag": "v1.0.0",
+        "publishedAt": "2026-10-11T18:41:45Z",
+        "url": "https://github.com/TunarJamalov/uptime-monitor/releases/tag/v1.0.0"
+      },
+      "lastCommit": {
+        "sha": "2cdac1e",
+        "date": "2026-10-11T18:40:06Z",
+        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+      }
+    },
+    "post-scheduler": {
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 7,
+      "license": "MIT",
+      "pushedAt": "2026-10-11T18:42:26Z",
+      "createdAt": "2026-10-11T17:30:26Z",
+      "description": "Self-hosted post scheduler for Mastodon and Bluesky (Typefully alternative)",
+      "topics": [
+        "bluesky",
+        "mastodon",
+        "nodejs",
+        "scheduler",
+        "self-hosted",
+        "social-media",
+        "sqlite",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "contributors": [
+        {
+          "login": "TunarJamalov",
+          "contributions": 5,
+          "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
+          "url": "https://github.com/TunarJamalov"
+        }
+      ],
+      "release": {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-10-11T18:41:48Z",
+        "url": "https://github.com/TunarJamalov/post-scheduler/releases/tag/v0.1.0"
+      },
+      "lastCommit": {
+        "sha": "9e92fe1",
+        "date": "2026-10-11T18:40:12Z",
+        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+      }
+    },
+    "link-shortener": {
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 7,
+      "license": "MIT",
+      "pushedAt": "2026-10-11T18:42:40Z",
+      "createdAt": "2026-10-11T18:06:56Z",
+      "description": "Self-hosted link shortener with click statistics (Bitly alternative)",
+      "topics": [
+        "analytics",
+        "bitly-alternative",
+        "link-shortener",
+        "nodejs",
+        "self-hosted",
+        "sqlite",
+        "typescript",
+        "url-shortener"
+      ],
+      "language": "TypeScript",
+      "contributors": [
+        {
+          "login": "TunarJamalov",
+          "contributions": 2,
+          "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
+          "url": "https://github.com/TunarJamalov"
+        }
+      ],
+      "release": {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-10-11T18:41:51Z",
+        "url": "https://github.com/TunarJamalov/link-shortener/releases/tag/v0.1.0"
+      },
+      "lastCommit": {
+        "sha": "b204563",
+        "date": "2026-10-11T18:40:16Z",
+        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+      }
+    },
+    "booking-page": {
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 8,
+      "license": "MIT",
+      "pushedAt": "2026-10-11T18:42:52Z",
+      "createdAt": "2026-10-11T18:31:57Z",
+      "description": "Self-hosted appointment booking page (Calendly alternative)",
+      "topics": [
+        "appointment-booking",
+        "calendly-alternative",
+        "nodejs",
+        "scheduling",
+        "self-hosted",
+        "sqlite",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "contributors": [
+        {
+          "login": "TunarJamalov",
+          "contributions": 2,
+          "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
+          "url": "https://github.com/TunarJamalov"
+        }
+      ],
+      "release": {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-10-11T18:41:54Z",
+        "url": "https://github.com/TunarJamalov/booking-page/releases/tag/v0.1.0"
+      },
+      "lastCommit": {
+        "sha": "f9c78ac",
+        "date": "2026-10-11T18:40:21Z",
+        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+      }
+    },
+    "open-source-saas-alternatives": {
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "license": "MIT",
+      "pushedAt": "2026-10-11T18:42:05Z",
+      "createdAt": "2026-08-14T14:40:51Z",
+      "description": "Catalog of self-hosted, open-source alternatives to paid SaaS products",
+      "topics": [
+        "awesome-list",
+        "catalog",
+        "open-source",
+        "saas-alternatives",
+        "self-hosted"
+      ],
+      "language": null,
+      "contributors": [
+        {
+          "login": "TunarJamalov",
+          "contributions": 13,
+          "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
+          "url": "https://github.com/TunarJamalov"
+        }
+      ],
+      "release": null,
+      "lastCommit": {
+        "sha": "7c36c9d",
+        "date": "2026-10-11T18:41:09Z",
+        "message": "Document release and security practices shared by all projects"
+      }
+    }
+  }
+}

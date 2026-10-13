@@ -1,0 +1,14 @@
+{
+  "name": "open-source-saas-alternatives-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for the open-source SaaS alternatives catalog",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "fetch": "node scripts/fetch-github.mjs",
+    "build": "node scripts/fetch-github.mjs && node scripts/build.mjs",
+    "build:offline": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "owner": "TunarJamalov",
+  "catalogRepo": "open-source-saas-alternatives",
+  "siteUrl": "https://open-source-saas-alternatives.vercel.app",
+  "projects": [
+    {
+      "slug": "uptime-monitor",
+      "repo": "uptime-monitor",
+      "name": "Uptime Monitor",
+      "alternativeTo": "UptimeRobot",
+      "category": "Monitoring",
+      "status": "ready",
+      "maturity": "Production usable",
+      "port": 3000,
+      "summary": "Checks your websites and services every few seconds, keeps incident history, and tells you on Discord, Slack, Telegram, a webhook or email when something goes down.",
+      "problem": "Hosted uptime services charge per monitor and keep your check history on their servers. This one runs as a single process on any small server and stores everything in one SQLite file.",
+      "features": [
+        "HTTP, HTTPS, SSL certificate, TCP, UDP, DNS, Ping, WebSocket, Heartbeat and Domain expiry monitors",
+        "DOWN after a configurable number of failures, incident history, 24h / 7d / 30d uptime",
+        "Discord, Slack, Telegram, generic JSON webhook and SMTP notifications with per-monitor policy",
+        "Public status page with maintenance and incident announcements",
+        "Maintenance mode, pause and resume, monitor groups, JSON and CSV export, daily backups",
+        "Admin dashboard with password sign-in and optional TOTP two-factor authentication"
+      ],
+      "limitations": [
+        "Checks run from one location only",
+        "WHOIS parsing depends on each registry's response format",
+        "Ping monitors need the system ping binary"
+      ],
+      "stack": ["TypeScript", "Express", "SQLite"]
+    },
+    {
+      "slug": "post-scheduler",
+      "repo": "post-scheduler",
+      "name": "Post Scheduler",
+      "alternativeTo": "Typefully",
+      "category": "Social media",
+      "status": "development",
+      "maturity": "Early development",
+      "port": 3100,
+      "summary": "Write posts and threads, attach images, schedule them or add them to a daily queue, and publish to Mastodon and Bluesky from one place.",
+      "problem": "Scheduling tools for social media are subscription products that hold your drafts and your account tokens. This one keeps both on your machine, encrypted, and talks to Mastodon and Bluesky directly.",
+      "features": [
+        "Posts and threads with live character counters per network",
+        "Schedule for a time, add to the next free queue slot, save as draft, or publish now",
+        "Cross-post to several accounts at once; each network's limits are checked",
+        "Up to four images per thread part with alt text",
+        "Automatic retries with a delay, then a failed state with the provider's error",
+        "Encrypted account tokens, admin sign-in with optional TOTP"
+      ],
+      "limitations": [
+        "No X/Twitter, LinkedIn or Threads",
+        "Images only, no video",
+        "Not yet verified against live accounts by a second person"
+      ],
+      "stack": ["TypeScript", "Express", "SQLite"]
+    },
+    {
+      "slug": "link-shortener",
+      "repo": "link-shortener",
+      "name": "Link Shortener",
+      "alternativeTo": "Bitly",
+      "category": "Marketing",
+      "status": "ready",
+      "maturity": "MVP",
+      "port": 3200,
+      "summary": "Short links on your own domain with click statistics by day, referrer, browser and device, without storing anyone's IP address.",
+      "problem": "Link shorteners sit between your audience and your content and keep the click data. Running your own keeps the domain, the links and the statistics under your control.",
+      "features": [
+        "Generated or custom slugs, titles, expiry dates and click limits",
+        "Clicks per day for 30 days, referrers, browsers, operating systems and devices",
+        "Unique visitors counted with a daily-rotating hash; IP addresses are never stored",
+        "QR code for every link, 302 or cached 301 redirects",
+        "API token for creating links from scripts",
+        "Admin sign-in with optional TOTP"
+      ],
+      "limitations": [
+        "No geographic statistics",
+        "Small built-in user-agent heuristic rather than a full parser",
+        "One domain per instance"
+      ],
+      "stack": ["TypeScript", "Express", "SQLite"]
+    },
+    {
+      "slug": "booking-page",
+      "repo": "booking-page",
+      "name": "Booking Page",
+      "alternativeTo": "Calendly",
+      "category": "Scheduling",
+      "status": "ready",
+      "maturity": "MVP",
+      "port": 3300,
+      "summary": "Define event types and weekly availability, share a link, and let guests pick a free slot in their own time zone. Invitations go out as .ics files and email.",
+      "problem": "Appointment tools charge per seat and keep your guests' details. This one runs on your server, handles time zones and daylight saving with the built-in Intl API, and keeps bookings in SQLite.",
+      "features": [
+        "Event types with duration, slot step, buffer, minimum notice and booking horizon",
+        "Weekly availability windows and blocked time for vacations",
+        "Public booking page with calendar and slots shown in the guest's time zone",
+        "Double-booking protection at confirmation time",
+        "Calendar invitations (.ics), SMTP confirmations and cancellations, guest self-cancellation",
+        "Dashboard for event types, bookings and blocked time; admin sign-in with optional TOTP"
+      ],
+      "limitations": [
+        "Single host, no team round-robin",
+        "No Google or Outlook calendar sync",
+        "No rescheduling flow; guests cancel and book again"
+      ],
+      "stack": ["TypeScript", "Express", "SQLite"]
+    }
+  ],
+  "planned": [
+    {
+      "name": "Git-based vault sync",
+      "alternativeTo": "Obsidian Sync",
+      "category": "Productivity",
+      "note": "An idea, not a promise. It would sync an Obsidian vault through a Git remote you control."
+    }
+  ],
+  "notPlanned": [
+    {
+      "alternativeTo": "Bitwarden",
+      "reason": "A password manager is security-critical software where a mistake harms people directly, and Vaultwarden already is an excellent, widely audited self-hosted implementation of the Bitwarden API.",
+      "useInstead": { "name": "Vaultwarden", "url": "https://github.com/dani-garcia/vaultwarden" }
+    }
+  ],
+  "statuses": {
+    "ready": { "label": "Ready", "description": "Usable project with documented setup, tests, releases and maintained source code." },
+    "development": { "label": "In development", "description": "Active implementation; works, but not yet considered stable." },
+    "experimental": { "label": "Experimental", "description": "Works for testing or personal use but has important limitations." },
+    "archived": { "label": "Archived", "description": "No longer actively maintained." },
+    "planned": { "label": "Planned", "description": "An idea; a repository may not exist yet." }
+  }
+}

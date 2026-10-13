@@ -4,6 +4,10 @@ An independent catalog of open-source, self-hosted alternatives to popular paid 
 
 Build it yourself, self-host it, keep control of your data, and avoid unnecessary subscriptions. Every alternative in this collection is maintained in its own repository. This repository is only the directory that connects the projects; it is not a monorepo and does not contain their source code.
 
+## Website
+
+The catalog is also published as a website with a page per project, contributors, releases and setup instructions. It lives in [`site/`](site/) and deploys on Vercel; see [site/README.md](site/README.md).
+
 ## Quick Links
 
 - [All Alternatives](#all-alternatives)
