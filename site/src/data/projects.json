@@ -27,7 +27,11 @@
         "WHOIS parsing depends on each registry's response format",
         "Ping monitors need the system ping binary"
       ],
-      "stack": ["TypeScript", "Express", "SQLite"]
+      "stack": [
+        "TypeScript",
+        "Express",
+        "SQLite"
+      ]
     },
     {
       "slug": "post-scheduler",
@@ -53,7 +57,11 @@
         "Images only, no video",
         "Not yet verified against live accounts by a second person"
       ],
-      "stack": ["TypeScript", "Express", "SQLite"]
+      "stack": [
+        "TypeScript",
+        "Express",
+        "SQLite"
+      ]
     },
     {
       "slug": "link-shortener",
@@ -79,7 +87,11 @@
         "Small built-in user-agent heuristic rather than a full parser",
         "One domain per instance"
       ],
-      "stack": ["TypeScript", "Express", "SQLite"]
+      "stack": [
+        "TypeScript",
+        "Express",
+        "SQLite"
+      ]
     },
     {
       "slug": "booking-page",
@@ -97,15 +109,18 @@
         "Weekly availability windows and blocked time for vacations",
         "Public booking page with calendar and slots shown in the guest's time zone",
         "Double-booking protection at confirmation time",
-        "Calendar invitations (.ics), SMTP confirmations and cancellations, guest self-cancellation",
+        "Calendar invitations (.ics), SMTP confirmations, reminders, guest self-service rescheduling and cancellation",
         "Dashboard for event types, bookings and blocked time; admin sign-in with optional TOTP"
       ],
       "limitations": [
         "Single host, no team round-robin",
-        "No Google or Outlook calendar sync",
-        "No rescheduling flow; guests cancel and book again"
+        "No Google or Outlook calendar sync"
       ],
-      "stack": ["TypeScript", "Express", "SQLite"]
+      "stack": [
+        "TypeScript",
+        "Express",
+        "SQLite"
+      ]
     }
   ],
   "planned": [
@@ -120,14 +135,32 @@
     {
       "alternativeTo": "Bitwarden",
       "reason": "A password manager is security-critical software where a mistake harms people directly, and Vaultwarden already is an excellent, widely audited self-hosted implementation of the Bitwarden API.",
-      "useInstead": { "name": "Vaultwarden", "url": "https://github.com/dani-garcia/vaultwarden" }
+      "useInstead": {
+        "name": "Vaultwarden",
+        "url": "https://github.com/dani-garcia/vaultwarden"
+      }
     }
   ],
   "statuses": {
-    "ready": { "label": "Ready", "description": "Usable project with documented setup, tests, releases and maintained source code." },
-    "development": { "label": "In development", "description": "Active implementation; works, but not yet considered stable." },
-    "experimental": { "label": "Experimental", "description": "Works for testing or personal use but has important limitations." },
-    "archived": { "label": "Archived", "description": "No longer actively maintained." },
-    "planned": { "label": "Planned", "description": "An idea; a repository may not exist yet." }
+    "ready": {
+      "label": "Ready",
+      "description": "Usable project with documented setup, tests, releases and maintained source code."
+    },
+    "development": {
+      "label": "In development",
+      "description": "Active implementation; works, but not yet considered stable."
+    },
+    "experimental": {
+      "label": "Experimental",
+      "description": "Works for testing or personal use but has important limitations."
+    },
+    "archived": {
+      "label": "Archived",
+      "description": "No longer actively maintained."
+    },
+    "planned": {
+      "label": "Planned",
+      "description": "An idea; a repository may not exist yet."
+    }
   }
 }

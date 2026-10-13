@@ -116,9 +116,9 @@ A single-process, self-hosted booking page: define event types and weekly availa
 - Event types with duration, buffer, minimum notice, and booking horizon
 - Weekly availability windows and blocked time, with daylight saving handled
 - Public booking page, double-booking protection, guest self-cancellation
-- Calendar invitations (.ics) and SMTP confirmation emails
+- Calendar invitations (.ics), SMTP confirmations and reminders, guest rescheduling and cancellation
 - Admin sign-in with optional TOTP, systemd and Docker deployment
-- Limitation: single host, no Google or Outlook calendar sync, no rescheduling flow
+- Limitation: single host, no Google or Outlook calendar sync
 
 **Repository:** [github.com/TunarJamalov/booking-page](https://github.com/TunarJamalov/booking-page)
 
