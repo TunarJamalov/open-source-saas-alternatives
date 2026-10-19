@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-13T12:17:37.082Z",
+  "fetchedAt": "2026-10-19T12:40:18.471Z",
   "repos": {
     "uptime-monitor": {
       "stars": 0,
       "forks": 0,
-      "openIssues": 7,
+      "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-11T18:42:40Z",
+      "pushedAt": "2026-10-18T12:33:43Z",
       "createdAt": "2026-08-14T14:49:25Z",
       "description": "Self-hosted uptime monitor with status page and alerts (UptimeRobot alternative)",
       "topics": [
@@ -23,7 +23,7 @@
       "contributors": [
         {
           "login": "TunarJamalov",
-          "contributions": 15,
+          "contributions": 18,
           "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
           "url": "https://github.com/TunarJamalov"
         }
@@ -34,17 +34,17 @@
         "url": "https://github.com/TunarJamalov/uptime-monitor/releases/tag/v1.0.0"
       },
       "lastCommit": {
-        "sha": "2cdac1e",
-        "date": "2026-10-11T18:40:06Z",
-        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+        "sha": "46ef187",
+        "date": "2026-10-13T12:53:13Z",
+        "message": "Upgrade TypeScript 7, dotenv 18, type packages and GitHub Actions; keep @types/node on 22"
       }
     },
     "post-scheduler": {
       "stars": 0,
       "forks": 0,
-      "openIssues": 7,
+      "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-11T18:42:26Z",
+      "pushedAt": "2026-10-18T22:05:53Z",
       "createdAt": "2026-10-11T17:30:26Z",
       "description": "Self-hosted post scheduler for Mastodon and Bluesky (Typefully alternative)",
       "topics": [
@@ -61,7 +61,7 @@
       "contributors": [
         {
           "login": "TunarJamalov",
-          "contributions": 5,
+          "contributions": 8,
           "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
           "url": "https://github.com/TunarJamalov"
         }
@@ -72,17 +72,17 @@
         "url": "https://github.com/TunarJamalov/post-scheduler/releases/tag/v0.1.0"
       },
       "lastCommit": {
-        "sha": "9e92fe1",
-        "date": "2026-10-11T18:40:12Z",
-        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+        "sha": "a78d928",
+        "date": "2026-10-13T12:53:16Z",
+        "message": "Upgrade TypeScript 7, dotenv 18, type packages and GitHub Actions; keep @types/node on 22"
       }
     },
     "link-shortener": {
       "stars": 0,
       "forks": 0,
-      "openIssues": 7,
+      "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-11T18:42:40Z",
+      "pushedAt": "2026-10-18T15:43:08Z",
       "createdAt": "2026-10-11T18:06:56Z",
       "description": "Self-hosted link shortener with click statistics (Bitly alternative)",
       "topics": [
@@ -99,7 +99,7 @@
       "contributors": [
         {
           "login": "TunarJamalov",
-          "contributions": 2,
+          "contributions": 5,
           "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
           "url": "https://github.com/TunarJamalov"
         }
@@ -110,17 +110,17 @@
         "url": "https://github.com/TunarJamalov/link-shortener/releases/tag/v0.1.0"
       },
       "lastCommit": {
-        "sha": "b204563",
-        "date": "2026-10-11T18:40:16Z",
-        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+        "sha": "c5db629",
+        "date": "2026-10-13T12:53:18Z",
+        "message": "Upgrade TypeScript 7, dotenv 18, type packages and GitHub Actions; keep @types/node on 22"
       }
     },
     "booking-page": {
       "stars": 0,
       "forks": 0,
-      "openIssues": 8,
+      "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-11T18:42:52Z",
+      "pushedAt": "2026-10-18T02:32:56Z",
       "createdAt": "2026-10-11T18:31:57Z",
       "description": "Self-hosted appointment booking page (Calendly alternative)",
       "topics": [
@@ -136,20 +136,20 @@
       "contributors": [
         {
           "login": "TunarJamalov",
-          "contributions": 2,
+          "contributions": 6,
           "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
           "url": "https://github.com/TunarJamalov"
         }
       ],
       "release": {
-        "tag": "v0.1.0",
-        "publishedAt": "2026-10-11T18:41:54Z",
-        "url": "https://github.com/TunarJamalov/booking-page/releases/tag/v0.1.0"
+        "tag": "v0.2.0",
+        "publishedAt": "2026-10-13T12:52:55Z",
+        "url": "https://github.com/TunarJamalov/booking-page/releases/tag/v0.2.0"
       },
       "lastCommit": {
-        "sha": "f9c78ac",
-        "date": "2026-10-11T18:40:21Z",
-        "message": "Fix dependency vulnerabilities; add audit to CI, Dependabot, security and contributing guides"
+        "sha": "a2947a0",
+        "date": "2026-10-13T12:53:21Z",
+        "message": "Upgrade TypeScript 7, dotenv 18, type packages and GitHub Actions; keep @types/node on 22"
       }
     },
     "open-source-saas-alternatives": {
@@ -157,7 +157,7 @@
       "forks": 0,
       "openIssues": 0,
       "license": "MIT",
-      "pushedAt": "2026-10-11T18:42:05Z",
+      "pushedAt": "2026-10-13T12:51:03Z",
       "createdAt": "2026-08-14T14:40:51Z",
       "description": "Catalog of self-hosted, open-source alternatives to paid SaaS products",
       "topics": [
@@ -167,20 +167,20 @@
         "saas-alternatives",
         "self-hosted"
       ],
-      "language": null,
+      "language": "JavaScript",
       "contributors": [
         {
           "login": "TunarJamalov",
-          "contributions": 13,
+          "contributions": 16,
           "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
           "url": "https://github.com/TunarJamalov"
         }
       ],
       "release": null,
       "lastCommit": {
-        "sha": "7c36c9d",
-        "date": "2026-10-11T18:41:09Z",
-        "message": "Document release and security practices shared by all projects"
+        "sha": "e0c0596",
+        "date": "2026-10-13T12:50:06Z",
+        "message": "Booking Page: rescheduling and reminders"
       }
     }
   }
