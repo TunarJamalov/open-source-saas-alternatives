@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-19T12:40:18.471Z",
+  "fetchedAt": "2026-10-26T12:34:07.214Z",
   "repos": {
     "uptime-monitor": {
       "stars": 0,
       "forks": 0,
       "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-18T12:33:43Z",
+      "pushedAt": "2026-10-25T12:34:08Z",
       "createdAt": "2026-08-14T14:49:25Z",
       "description": "Self-hosted uptime monitor with status page and alerts (UptimeRobot alternative)",
       "topics": [
@@ -44,7 +44,7 @@
       "forks": 0,
       "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-18T22:05:53Z",
+      "pushedAt": "2026-10-25T22:06:36Z",
       "createdAt": "2026-10-11T17:30:26Z",
       "description": "Self-hosted post scheduler for Mastodon and Bluesky (Typefully alternative)",
       "topics": [
@@ -82,7 +82,7 @@
       "forks": 0,
       "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-18T15:43:08Z",
+      "pushedAt": "2026-10-25T15:43:44Z",
       "createdAt": "2026-10-11T18:06:56Z",
       "description": "Self-hosted link shortener with click statistics (Bitly alternative)",
       "topics": [
@@ -120,7 +120,7 @@
       "forks": 0,
       "openIssues": 1,
       "license": "MIT",
-      "pushedAt": "2026-10-18T02:32:56Z",
+      "pushedAt": "2026-10-25T02:33:38Z",
       "createdAt": "2026-10-11T18:31:57Z",
       "description": "Self-hosted appointment booking page (Calendly alternative)",
       "topics": [
@@ -157,7 +157,7 @@
       "forks": 0,
       "openIssues": 0,
       "license": "MIT",
-      "pushedAt": "2026-10-13T12:51:03Z",
+      "pushedAt": "2026-10-19T12:40:19Z",
       "createdAt": "2026-08-14T14:40:51Z",
       "description": "Catalog of self-hosted, open-source alternatives to paid SaaS products",
       "topics": [
@@ -174,13 +174,19 @@
           "contributions": 16,
           "avatar": "https://avatars.githubusercontent.com/u/139899544?v=4",
           "url": "https://github.com/TunarJamalov"
+        },
+        {
+          "login": "github-actions[bot]",
+          "contributions": 1,
+          "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+          "url": "https://github.com/apps/github-actions"
         }
       ],
       "release": null,
       "lastCommit": {
-        "sha": "e0c0596",
-        "date": "2026-10-13T12:50:06Z",
-        "message": "Booking Page: rescheduling and reminders"
+        "sha": "4a8b433",
+        "date": "2026-10-19T12:40:18Z",
+        "message": "Refresh site data"
       }
     }
   }
